@@ -14,9 +14,9 @@ namespace EmployeeWage_OOPS
             Random r = new Random();
             int check = r.Next(0, 2);
             if (Is_Present == check)
-                Console.WriteLine("Employee Is Present");
+                Console.WriteLine(" Employe Is Present");
             else
-                Console.WriteLine("Employee Is Absent");
+                Console.WriteLine("Employe Is Absent");
             Console.ReadLine();
             Console.ReadLine();
         }
